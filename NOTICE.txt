@@ -1,0 +1,12 @@
+## Third-Party Attributions
+
+This project utilizes pre-trained weights from the following Flan-T5 models:
+
+* **google/flan-t5-small:**
+    - Source: [Hugging Face flan-t5-small model card](https://huggingface.co/google/flan-t5-small)
+* **google/flan-t5-base:**
+    - Source: [Hugging Face flan-t5-base model card]([link to base model card])
+* **google/flan-t5-large:**
+    - Source: [Hugging Face flan-t5-large model card]([link to large model card])
+
+All of the above Flan-T5 models are licensed under the Apache License 2.0 (see LICENSE file for details).
