@@ -133,5 +133,4 @@ model_history = model.fit(train_dataset,
                           validation_data=validation_dataset,
                           callbacks=[early_stopping, checkpoint_callback])
 
-# After training, you can load the best weights using:
 # model.load_weights(checkpoint_callback.filepath)
