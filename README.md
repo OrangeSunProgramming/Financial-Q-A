@@ -24,4 +24,4 @@ The primary objective was to fine-tune large-scale models effectively on limited
 
 ### Licensing
 
-This project is licensed under the MIT License (see LICENSE file for details). While the MIT License permits commercial use, we encourage non-commercial applications. We appreciate attribution if this codebase is used or modified (refer to the NOTICE.txt file for attribution guidelines).
+This project is licensed under the MIT License (see LICENSE file for details). The Flan-T5 models and the Financial Q&A - 10k dataset used in this project are licensed under the Apache License 2.0 (see LICENSE-3RD-PARTY file for the full license text).

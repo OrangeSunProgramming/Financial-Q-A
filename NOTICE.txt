@@ -15,4 +15,4 @@ Additionally, this project utilizes the following dataset:
   - Source: [Kaggle financial Q&A - 10k dataset](https://www.kaggle.com/datasets/yousefsaeedian/financial-q-and-a-10k)
   - License: Apache License 2.0 (see LICENSE file for details)
 
-All of the above Flan-T5 models and the Financial Q&A - 10k dataset are licensed under the Apache License 2.0.
+All of the above Flan-T5 models and the Financial Q&A - 10k dataset are licensed under the Apache License 2.0 (see LICENSE-3RD-PARTY file for details).
