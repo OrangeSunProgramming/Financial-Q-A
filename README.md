@@ -8,7 +8,7 @@ To leverage the model's pre-trained weights effectively while adapting to the fi
 
 ### Data Preparation and Training
 
-The dataset underwent preprocessing to accommodate numerical values and facilitate input into the model. Using tools from the 'transformers' library in Python, data cleaning and tokenization were performed. The dataset was structured into a TensorFlow Dataset format with features including "input_ids" and "attention_mask". 
+The dataset underwent preprocessing to accommodate numerical values and facilitate input into the model. Using tools from the `transformers` library in Python, data cleaning and tokenization were performed. The dataset was structured into a TensorFlow Dataset format with features including "input_ids" and "attention_mask". 
 
 Given the dataset's size (5600 for training and 1400 for validation), strategies to mitigate overfitting were crucial. An early stopping callback was implemented to monitor validation accuracy, coupled with a custom model checkpoint to save the best weights based on validation loss. This approach provided flexibility not achievable with standard TensorFlow callbacks, ensuring optimal training outcomes.
 
