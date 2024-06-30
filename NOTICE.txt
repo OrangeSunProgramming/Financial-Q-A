@@ -3,10 +3,16 @@
 This project utilizes pre-trained weights from the following Flan-T5 models:
 
 * **google/flan-t5-small:**
-    - Source: [Hugging Face flan-t5-small model card](https://huggingface.co/google/flan-t5-small)
+  - Source: [Hugging Face flan-t5-small model card](https://huggingface.co/google/flan-t5-small)
 * **google/flan-t5-base:**
-    - Source: [Hugging Face flan-t5-base model card](https://huggingface.co/google/flan-t5-base)
+  - Source: [Hugging Face flan-t5-base model card](https://huggingface.co/google/flan-t5-base)
 * **google/flan-t5-large:**
-    - Source: [Hugging Face flan-t5-large model card](https://huggingface.co/google/flan-t5-large)
+  - Source: [Hugging Face flan-t5-large model card](https://huggingface.co/google/flan-t5-large)
 
-All of the above Flan-T5 models are licensed under the Apache License 2.0 (see LICENSE file for details).
+Additionally, this project utilizes the following dataset:
+
+* **Financial Q&A - 10k:**
+  - Source: [Kaggle financial Q&A - 10k dataset](https://www.kaggle.com/datasets/yousefsaeedian/financial-q-and-a-10k)
+  - License: Apache License 2.0 (see LICENSE file for details)
+
+All of the above Flan-T5 models and the Financial Q&A - 10k dataset are licensed under the Apache License 2.0.
