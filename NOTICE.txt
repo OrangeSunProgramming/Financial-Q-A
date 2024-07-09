@@ -1,6 +1,6 @@
 ## Third-Party Attributions
 
-This project utilizes pre-trained weights from the following BART models:
+This project utilizes pre-trained weights from the following BART model:
 
 * **facebook/bart-base**:
 - Source: Hugging Face model hub (https://huggingface.co/facebook/bart-base)
