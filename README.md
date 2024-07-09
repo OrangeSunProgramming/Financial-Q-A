@@ -1,5 +1,4 @@
-## Reinforcement Learning for Enhancing Financial Question-Answering with BART
-## Project Overview
+## Reinforcement Learning for Enhancing Financial Question-Answering with BART Project Overview
 
 This project showcases the application of reinforcement learning (RL) techniques to optimize financial question-answering capabilities using the BART (Bidirectional and Auto-Regressive Transformers) model from Hugging Face. Focused on a targeted subset of 250 entries from a comprehensive dataset of 7,000, the project highlights how RL, coupled with a reward system for sentence coherence and fluency, significantly enhances the model's accuracy and relevance in generating precise responses within the financial domain.
 
