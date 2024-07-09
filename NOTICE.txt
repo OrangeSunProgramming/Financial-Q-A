@@ -4,6 +4,7 @@ This project utilizes pre-trained weights from the following BART models:
 
 * **facebook/bart-base**:
 - Source: Hugging Face model hub (https://huggingface.co/facebook/bart-base)
+
 Additionally, this project utilizes the following dataset:
 
 * **Financial Q&A - 10k:**
