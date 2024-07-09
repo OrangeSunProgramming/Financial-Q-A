@@ -17,3 +17,7 @@ The project underscores the transformative potential of RL-enhanced BART models 
 ## Licensing
 
 This project adheres to the MIT License, with acknowledgments to the Hugging Face community for their pivotal contributions to AI model advancements. The utilization of the BART model and the selected subset of the Financial Q&A dataset complies with the Apache License 2.0, ensuring ethical standards and transparency in AI model development.
+
+## Usage and Accessibility
+
+This project is also available to assist others in applying RL techniques for enhancing question-answering systems in various domains. The provided dataset can serve as a foundational resource for training and evaluating similar models, fostering further advancements in AI-driven financial analysis and decision support.
