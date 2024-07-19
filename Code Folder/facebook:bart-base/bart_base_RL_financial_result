@@ -1,0 +1,20 @@
+Epoch 1/7, Loss: [2.7638304], Coherence Score: 0.4691686786413193, Fluency Score: 0.07612684268834716
+Epoch 2/7, Loss: [1.3404258], Coherence Score: 0.627233817756176, Fluency Score: 0.19985441983076593
+Epoch 3/7, Loss: [0.70062166], Coherence Score: 0.6237628396749496, Fluency Score: 0.2643485582916809
+Epoch 4/7, Loss: [0.21441925], Coherence Score: 0.708746823310852, Fluency Score: 0.4072541241926304
+Epoch 5/7, Loss: [0.18724102], Coherence Score: 0.670707879781723, Fluency Score: 0.3844624450266377
+Epoch 6/7, Loss: [-0.07761484], Coherence Score: 0.7634311099052429, Fluency Score: 0.5015096476867906
+Epoch 7/7, Loss: [-0.22891365], Coherence Score: 0.7749759345054626, Fluency Score: 0.5600514511308936
+
+This is the result of using reinforcement learning to train facebook/bart-base on a financial dataset for a question-answering task, using a restriction of 250 data points. The way the loss function is constructed in the python code allows for it to be negative which in this case is acceptable. That is, based on the way the code is written, as long as the loss function is decreasing, the coherence and fluency score are increasing as well, then the model is learning. You can note that the coherence score is much higher than fluency because there was a greater emphasis on coherence than on fluency. To be more precise, the coherence weighted 4 times more than the fluency weight. By focusing on coherence more than fluency, I make the model have more relevant and accurate answers. The RL was only run for 7 epochs due to computational resources but with more epochs to train, the model should have been able to reach the coherence threshold of 0.85. Note from the code that there was a coherence penalty of 0.9 which heavily penalizes the model and thus contributed to the improvement of the coherence score every epoch as shown in the result. For this project, no penalty was applied to fluency since coherence is the main focus. I hope that whoever uses the code and dataset shared in this project is able to train the model for a longer time and find much better parameters that might work tremendously. Here I rewrite the hyperparameters and optimizer used to train this particular model which seems to work fine. 
+
+
+HYPERPARAMETERS
+
+Optimizer: Adam
+learning_rate = 5e-5
+coherence_threshold = 0.85
+coherence_penalty = 0.9
+fluency_weight = 0.2
+coherence_weight = 0.8
+
